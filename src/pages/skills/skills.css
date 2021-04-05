@@ -1,0 +1,49 @@
+#skills {
+  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply; */
+}
+
+.focus {
+  transition: transform 0.1s;
+}
+
+.focus:hover {
+  transform: scale(1.03);
+}
+
+.list {
+  color: green;
+}
+
+.list:hover {
+  transform: scale(1.05);
+  transition: all 0.6s ease;
+}
+
+.list .skill :hover {
+  color: green;
+  transform: scale(1.05);
+  transition: all 0.6s ease;
+}
+
+.card-title {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.image-style {
+  width: 3em;
+  height: 3em;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #231d5af8;
+}
+
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+  color: #ffffff;
+}
