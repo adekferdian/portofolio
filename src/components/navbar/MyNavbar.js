@@ -180,7 +180,7 @@ function MyNavbar() {
                   <FacebookIcon className='sosmed' />
                   <InstagramIcon className='sosmed' />
                 </div>
-                <SortIcon className='icon' onClick={() => !sideNav ? setSideNav(true) : setSideNav(false)} />
+                <SortIcon style={{cursor: 'pointer'}} className='icon' onClick={() => !sideNav ? setSideNav(true) : setSideNav(false)} />
               </div>
             </AppBar>
             :
