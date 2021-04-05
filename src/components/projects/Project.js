@@ -1,11 +1,11 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import instapin from '../../assets/img/instapin.JPG';
-import entertainMe from '../../assets/img/entertainme.JPG';
+import instapin from '../../assets/instapin.PNG';
+import entertainMe from '../../assets/entertainme.PNG';
 import kiosk from '../../assets/kiosk.jpg';
 import webadmin from '../../assets/img/webadmin.jpg';
-import sugoku from '../../assets/img/sugoku.JPG';
+import sugoku from '../../assets/sugoku.PNG';
 import { Typography } from '@material-ui/core';
 
 const Projects = () => {
