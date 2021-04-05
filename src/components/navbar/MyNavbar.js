@@ -174,11 +174,21 @@ function MyNavbar() {
             <AppBar data-aos="fade-right" data-aos="slide-down"  data-aos-easing="ease-in-out-cubic" data-aos-duration="500" className={classes.AppBar}>
               <div style={{display: 'flex', justifyContent: 'space-between', width: '90%', margin: 'auto',}}>
                 <div style={{display: 'flex', justifyContent: 'space-between', width: '20%', placeItems: 'center', cursor: 'pointer'}}>
-                  <LinkedInIcon className='sosmed' />
-                  <GitHubIcon className='sosmed' />
-                  <TwitterIcon className='sosmed' />
-                  <FacebookIcon className='sosmed' />
-                  <InstagramIcon className='sosmed' />
+                  <a href="https://www.linkedin.com/in/adekferdian/">
+                    <LinkedInIcon className='sosmed' />
+                  </a>
+                  <a href="https://github.com/adekferdian">
+                    <GitHubIcon className='sosmed' />
+                  </a>
+                  <a href="https://twitter.com/adeekbarnes">
+                    <TwitterIcon className='sosmed' />
+                  </a>
+                  <a href="https://web.facebook.com/adek.barnes">
+                    <FacebookIcon className='sosmed' />
+                  </a>
+                  <a href="https://www.instagram.com/adekferdian/">
+                    <InstagramIcon className='sosmed' />
+                  </a>
                 </div>
                 <SortIcon style={{cursor: 'pointer'}} className='icon' onClick={() => !sideNav ? setSideNav(true) : setSideNav(false)} />
               </div>
